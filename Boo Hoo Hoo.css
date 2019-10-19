@@ -1,0 +1,62 @@
+body {
+    background-image:url("../img/141193.jpg");
+    animation-name: MAGIC;
+    animation-duration: 6s;
+    /* animation-iteration-count: infinite; */
+    background-repeat:no-repeat;
+    margin:0px;
+    padding:0px;
+}
+@keyframes MAGIC {
+    from{background-image:url("../img/umbra.jpg")}
+    to {background-image:url("../img/141193.jpg")}
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    /* background-color:black; */
+    animation-name: TEXT;
+    animation-duration: 8s;
+    /* animation-iteration-count: infinite; */
+    color:red;
+    
+    
+}
+@keyframes TEXT {
+    from{color:black;}
+    to{color:whitesmoke;}
+}
+.Welcome {
+    animation-name: TEXT;
+    animation-duration: 10s;
+    color:red;
+    font-family: 'Special Elite', cursive;
+    display:inline;
+}
+.text2 {
+    animation-name: TEXT;
+    animation-duration: 12s;
+    color:red;
+    font-family: 'Special Elite', cursive;
+    display:inline;
+}
+.text3 {
+    animation-name: TEXT;
+    animation-duration: 14s;
+    color:red;
+    font-family: 'Special Elite', cursive;
+    /* display:inline; */
+
+}
+.text4 {
+    animation-name: TEXT;
+    animation-duration: 16s;
+    color:red;
+    font-family: 'Special Elite', cursive;
+    display:inline;
+
+}
+.Tot {
+    text-align:center;
+     font-size:50px;
+}
