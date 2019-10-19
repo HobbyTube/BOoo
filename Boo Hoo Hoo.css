@@ -1,5 +1,5 @@
 body {
-    background-image:url("../img/141193.jpg");
+    background-image:url("./img/141193.jpg");
     animation-name: MAGIC;
     animation-duration: 6s;
     /* animation-iteration-count: infinite; */
@@ -8,8 +8,8 @@ body {
     padding:0px;
 }
 @keyframes MAGIC {
-    from{background-image:url("../img/umbra.jpg")}
-    to {background-image:url("../img/141193.jpg")}
+    from{background-image:url("./img/umbra.jpg")}
+    to {background-image:url("./img/141193.jpg")}
 }
 h1 {
     font-family: 'Special Elite', cursive;
