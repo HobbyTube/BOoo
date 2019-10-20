@@ -63,8 +63,3 @@ h1 {
     animation-duration:30s;
 
 }
-@keyframes customtext {
-    from{margin-left:-50%;}
-    to { margin-left:50%}
-    
-}
