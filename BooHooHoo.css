@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     /* background-color:black; */
     animation-name: TEXT;
-    animation-duration: 8s;
+    animation-duration: 20s;
     /* animation-iteration-count: infinite; */
     color:red;
     
@@ -60,10 +60,10 @@ h1 {
     text-align:center;
      font-size:50px;
     animation-name:customtext;
-    animation-duration:30s;
+    animation-duration:25s;
 
 }
 @keyframes customtext {
-    from{text-align:left;}
-    to{text-align:center;}
+    from{float:left;}
+    to{float:center;}
 }
